@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'ui-icons';
+  src:  url('uitheme-icons.eot?he0psg');
+  src:  url('uitheme-icons.eot?he0psg#iefix') format('embedded-opentype'),
+    url('uitheme-icons.ttf?he0psg') format('truetype'),
+    url('uitheme-icons.woff?he0psg') format('woff'),
+    url('uitheme-icons.svg?he0psg#uitheme-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="uitheme-"], [class*=" uitheme-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ui-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.uitheme-close:before {
+  content: "\e901";
+}
+.uitheme-pinterest:before {
+  content: "\e900";
+}
+.uitheme-linkedin:before {
+  content: "\e91c";
+
+}
+.uitheme-arrow:before {
+  content: "\e918";
+
+}
+.uitheme-cart:before {
+  content: "\e919";
+
+}
+.uitheme-facebook:before {
+  content: "\e91a";
+
+}
+.uitheme-instagram:before {
+  content: "\e91b";
+
+}
+.uitheme-search:before {
+  content: "\e91f";
+
+}
+.uitheme-twitch:before {
+  content: "\e920";
+
+}
+.uitheme-twitter:before {
+  content: "\e921";
+
+}
+.uitheme-youtube:before {
+  content: "\e922";
+}
